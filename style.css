@@ -149,6 +149,15 @@ footer a {
   color: #fff;
   text-decoration: none;
 }
+#contents {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    padding-top: 140px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
  @media all and (max-width: 768px) {
 
 .example-header .container { width: 100%; }
@@ -339,4 +348,11 @@ a.menu-link.active:after { content: "\2715"; }
     background-position: center;
     background-size: cover;
     opacity: 0.5;
+}
+/* 폰트 */
+h1{
+   color: black; 
+}
+h2{
+   color: black;
 }
