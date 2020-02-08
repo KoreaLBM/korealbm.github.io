@@ -349,10 +349,38 @@ a.menu-link.active:after { content: "\2715"; }
     background-size: cover;
     opacity: 0.5;
 }
+#jb-extraframe{
+    clear: both;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #666666;
+    text-align: center;
+      }
+#jb-extra{/*저작권정보*/
+    clear: both;
+    width: 150px;
+    padding: 7px;
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: inline-block;
+}
+#bin{
+    min-height: 600px;
+    
+}
 /* 폰트 */
 h1{
    color: black; 
 }
 h2{
    color: black;
+}
+span.extra{/*저작권정보 적는 것*/
+    color: #CCCCCC;
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
 }
