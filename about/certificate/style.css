@@ -447,9 +447,32 @@ font1{
 font2{
     font-weight: 700;
 }
-
+span.extra{/*저작권정보 적는 것*/
+    color: #CCCCCC;
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
+}
 
 #jb-footer {/*Skill*/
     clear: both;
     padding-left: 5%; padding-right: 5%;
+}
+#jb-extraframe{
+    clear: both;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #666666;
+    text-align: center;
+      }
+#jb-extra{/*저작권정보*/
+    clear: both;
+    width: 150px;
+    padding: 7px;
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: inline-block;
 }
