@@ -157,7 +157,75 @@ footer a {
     padding-left: 70px;
     padding-right: 70px;
 }
+#jb-introframe{
+    width: auto;
+    height: 670px;
+    margin: 0px auto;
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.introbackground{
+    border: 0;
+    padding: 0;
+    background-image: url(intro_img.jpg);
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+#jb-footer {/*Skill*/
+    clear: both;
+    padding-left: 5%; padding-right: 5%;
+}
+#frame1{
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover; padding-top: 1%;padding-bottom: 1%;
+}
+font1{
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+}
+font2{
+    font-weight: 700;text-shadow: 2px 1px 1px #9aacb8;
+}
 
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#jb-extraframe{
+    clear: both;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #666666;
+    text-align: center;
+      }
+#jb-extra{/*저작권정보*/
+    clear: both;
+    width: 150px;
+    padding: 7px;
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: inline-block;
+}
+#bin{
+    height: 50px;
+    width: auto;
+}
+#bin1{
+    
+    height: 150px;
+}
  @media all and (max-width: 768px) {
 
 .example-header .container { width: 100%; }
@@ -330,53 +398,17 @@ a.menu-link.active:after { content: "\2715"; }
 }
 
 /* 프레임 틀 */
-#jb-introframe{
-    width: auto;
-    height: 500px;
-    margin: 0px auto;
-    max-width: 100%;
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-.introbackground{
-    border: 0;
-    padding: 0;
-    background-image: url(intro_img.jpg);
-    max-width: 100%;
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.5;
-}
-#jb-extraframe{
-    clear: both;
-    max-width: 100%;
-    min-height: 100%;
-    background-color: #666666;
-    text-align: center;
-      }
-#jb-extra{/*저작권정보*/
-    clear: both;
-    width: 150px;
-    padding: 7px;
-    max-width: 100%;
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-    display: inline-block;
-}
-#bin{
-    min-height: 600px;
-    
-}
+
 /* 폰트 */
 h1{
    color: black; 
+   font-weight: bold;
+    text-shadow: 3px 2px 2px gray;
 }
 h2{
    color: black;
+    font-weight: 500;
+    text-shadow: 3px 2px 2px gray;
 }
 span.extra{/*저작권정보 적는 것*/
     color: #CCCCCC;
