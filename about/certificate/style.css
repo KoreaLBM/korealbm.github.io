@@ -325,16 +325,7 @@ a.menu-link.active:after { content: "\2715"; }
 
 
 #hero { height: 200px; }
-     
-#jb-introframe{
-      float: none;
-      width: auto;
-    }      
-.introbackground{
-      width: auto;
-      float: none;
-      height: 100%;
- }
+
 
      
 }
@@ -346,7 +337,7 @@ a.menu-link.active:after { content: "\2715"; }
 /* 프레임 틀 */
 #jb-introframe{
     width: auto;
-    height: 500px;
+    height: 670px;
     margin: 0px auto;
     max-width: 100%;
     min-height: 100%;
@@ -361,7 +352,7 @@ a.menu-link.active:after { content: "\2715"; }
     min-height: 100%;
     background-position: center;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 #frame1{
     max-width: 100%;
@@ -374,6 +365,7 @@ a.menu-link.active:after { content: "\2715"; }
     min-height: 100%;
     background-position: center;
     background-size: cover;
+    padding-bottom: 20px;
 }
 #frame3{
     position: relative;
@@ -397,6 +389,8 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
 }
 
 * {
@@ -421,23 +415,27 @@ div.desc {
 }
 #border1{
     border-top: 4px solid;
-    border-top-color: firebrick;
+    border-top-color: #efa666;
     max-width: 3%;
-    padding-bottom: 0.5%;
-    margin-top: 0.5%;
+    padding-bottom: 1%;
+    margin-top: 1%;
 }
 /* 폰트 */
 h1{
    color: black; 
+   font-weight: bold;
+    text-shadow: 3px 2px 2px gray;
 }
 h2{
    color: black;
+    font-weight: 500;
+    text-shadow: 3px 2px 2px gray;
 }
 s1{
-    color: firebrick;
-    font-size: 1.3em;
+    color: #efa666;
+    font-size: 30px;
     font-weight: 700;
-    
+    text-shadow: 2px 1px 1px #9aacb8;
 }
 font1{
     color: black;
@@ -445,7 +443,7 @@ font1{
     font-weight: 400;
 }
 font2{
-    font-weight: 700;
+    font-weight: 700;text-shadow: 2px 1px 1px #9aacb8;
 }
 span.extra{/*저작권정보 적는 것*/
     color: #CCCCCC;
@@ -453,7 +451,10 @@ span.extra{/*저작권정보 적는 것*/
     font-style: normal;
     text-align: center;
 }
-
+#bin {
+    height: 100px;
+    width: auto;
+}
 #jb-footer {/*Skill*/
     clear: both;
     padding-left: 5%; padding-right: 5%;
