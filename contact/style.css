@@ -195,18 +195,45 @@ font2{
     font-weight: 700;text-shadow: 2px 1px 1px #9aacb8;
 }
 .responsive {
-  padding-right: 4%;
+  padding-right: 2%;
   float: left;
-  width: 7%;
+  width: 5%;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
 }
+
+#jb-extraframe{
+    clear: both;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #666666;
+    text-align: center;
+      }
+#jb-extra{/*저작권정보*/
+    clear: both;
+    width: 150px;
+    padding: 7px;
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: inline-block;
+}
+#bin{
+    height: 50px;
+    width: auto;
+}
+#bin1{
+    
+    height: 150px;
+}
  @media all and (max-width: 768px) {
 .responsive {
-  width: 12%;
+  width: 10%;
 }
 .example-header .container { width: 100%; }
 
@@ -379,32 +406,6 @@ a.menu-link.active:after { content: "\2715"; }
 
 /* 프레임 틀 */
 
-#jb-extraframe{
-    clear: both;
-    max-width: 100%;
-    min-height: 100%;
-    background-color: #666666;
-    text-align: center;
-      }
-#jb-extra{/*저작권정보*/
-    clear: both;
-    width: 150px;
-    padding: 7px;
-    max-width: 100%;
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-    display: inline-block;
-}
-#bin{
-    height: 50px;
-    width: auto;
-}
-#bin1{
-    
-    height: 100px;
-}
 /* 폰트 */
 h1{
    color: black; 
