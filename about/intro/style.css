@@ -288,7 +288,7 @@ font2{
 /*여기까지 타임라인*/
 #jb-introframe{
     width: auto;
-    height: 700px;
+    height: 670px;
     margin: 0px auto;
     max-width: 100%;
     min-height: 100%;
@@ -503,6 +503,7 @@ a.menu-link.active:after { content: "\2715"; }
 .content{
      padding-bottom: 10%;
 }
+     
 /*여기까지 반응형 타임라인*/
 }
 /* 프레임 틀 */
