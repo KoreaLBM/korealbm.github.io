@@ -157,10 +157,14 @@ footer a {
     padding-left: 70px;
     padding-right: 70px;
 }
+.s1{ font-size: 13.5px;}
 /*여기부터 타임라인*/
 h5 {
   text-align: center;
   font-size: 60px;
+  color: #2f3b3f;
+   text-shadow: 4px 2px 2px gray;
+    font-weight: bold;
 }
 .timeline {
   position: relative;
@@ -200,9 +204,9 @@ h5 {
   left: -4px;
   width: 10px;
   height: 10px;
-  background: rgba(233, 33, 99, 1);
+  background: #efa666;
   border-radius: 50%;
-  box-shadow: 0 0 0 3Fpx rgba(233, 33, 99, 0.2);
+  box-shadow: 0 0 0 3Fpx #b37c57;
 }
 .timeline ul li:nth-child(even) {
   float: right;
@@ -216,15 +220,15 @@ h5 {
   left: -4px;
   width: 10px;
   height: 10px;
-  background: rgba(233, 33, 99, 1);
+  background: #efa666;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+  box-shadow: 0 0 0 3px #b37c57;
 }
 .timeline ul li h3 {
   margin: 0;
   padding: 0;
-  font-weight: 600;
-  color: rgba(233, 33, 99, 1);
+  font-weight: bold;
+  color: #efa666;
 }
 .timeline ul li p {
   margin: 10px 0 0;
@@ -233,7 +237,7 @@ h5 {
 .timeline ul li .time h4 {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 14px;text-shadow: 2px 1px 1px #9aacb8;
 }
 .timeline ul li:nth-child(odd) .time {
   position: absolute;
@@ -243,7 +247,7 @@ h5 {
   left: -160px;
   margin: 0;
   padding: 8px 16px;
-  background: rgba(233, 33, 99, 1);
+  background: #efa666;
   color: #fff;
   border-radius: 18px;
   box-shadow: 0 0 0 3px rgba(233, 33, 00, 0.3);
@@ -254,7 +258,7 @@ h5 {
   left: -165px;
   margin: 0;
   padding: 8px 16px;
-  background: rgba(233, 33, 99, 1);
+  background: #efa666;
   color: #fff;
   border-radius: 18px;
   box-shadow: 0 0 0 3px rgba(233, 33, 00, 0.3);
@@ -263,9 +267,62 @@ h5 {
 .content {
   padding-bottom: 20px;
 }
-
+#jb-footer {/*Skill*/
+    clear: both;
+    padding-left: 5%; padding-right: 5%;
+}
+#frame1{
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover; padding-top: 1%;padding-bottom: 1%;
+}
+font1{
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+}
+font2{
+    font-weight: 700;text-shadow: 2px 1px 1px #9aacb8;
+}
 /*여기까지 타임라인*/
-
+#jb-introframe{
+    width: auto;
+    height: 700px;
+    margin: 0px auto;
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.introbackground{
+    border: 0;
+    padding: 0;
+    background-image: url(intro_img.jpg);
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+#jb-extraframe{
+    clear: both;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #666666;
+    text-align: center;
+      }
+#jb-extra{/*저작권정보*/
+    clear: both;
+    width: 150px;
+    padding: 7px;
+    max-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: inline-block;
+}
  @media all and (max-width: 768px) {
 
 .example-header .container { width: 100%; }
@@ -425,24 +482,17 @@ a.menu-link.active:after { content: "\2715"; }
 
 #hero { height: 200px; }
      
-#jb-introframe{
-      float: none;
-      width: auto;
-    }      
-.introbackground{
-      width: auto;
-      float: none;
-      height: 100%;
- }
 /*여기부터 반응형 타임라인*/
 .timeline ul li:nth-child(odd) .time{
-    left: 40px;
+    left: 20px;
     top: -20px;
     border-radius: 0;
 }     
 .timeline ul li{
-    padding: 20px 40px;
-    min-width: 100%;
+    padding: 20px;
+    padding-right: 30px;
+    min-width: 110%;
+    left: 30px;
 }
 .timeline:before {
  display: none;
@@ -456,43 +506,7 @@ a.menu-link.active:after { content: "\2715"; }
 /*여기까지 반응형 타임라인*/
 }
 /* 프레임 틀 */
-#jb-introframe{
-    width: auto;
-    height: 500px;
-    margin: 0px auto;
-    max-width: 100%;
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-.introbackground{
-    border: 0;
-    padding: 0;
-    background-image: url(intro_img.jpg);
-    max-width: 100%;
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.5;
-}
-#jb-extraframe{
-    clear: both;
-    max-width: 100%;
-    min-height: 100%;
-    background-color: #666666;
-    text-align: center;
-      }
-#jb-extra{/*저작권정보*/
-    clear: both;
-    width: 150px;
-    padding: 7px;
-    max-width: 100%;
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-    display: inline-block;
-}
+
 #bin{
     min-height: 600px;
     
@@ -500,9 +514,13 @@ a.menu-link.active:after { content: "\2715"; }
 /* 폰트 */
 h1{
    color: black; 
+   font-weight: bold;
+    text-shadow: 3px 2px 2px gray;
 }
 h2{
    color: black;
+    font-weight: 500;
+    text-shadow: 3px 2px 2px gray;
 }
 span.extra{/*저작권정보 적는 것*/
     color: #CCCCCC;
