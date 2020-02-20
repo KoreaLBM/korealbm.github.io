@@ -195,9 +195,9 @@ font2{
     font-weight: 700;text-shadow: 2px 1px 1px #9aacb8;
 }
 .responsive {
-  padding-right: 30px;
+  padding-right: 4%;
   float: left;
-  width: 5%;
+  width: 7%;
 }
 
 div.gallery img {
@@ -205,7 +205,9 @@ div.gallery img {
   height: auto;
 }
  @media all and (max-width: 768px) {
-
+.responsive {
+  width: 12%;
+}
 .example-header .container { width: 100%; }
 
 .spinner-master * {
@@ -396,8 +398,12 @@ a.menu-link.active:after { content: "\2715"; }
     display: inline-block;
 }
 #bin{
-    height: 100px;
+    height: 50px;
     width: auto;
+}
+#bin1{
+    
+    height: 100px;
 }
 /* 폰트 */
 h1{
