@@ -211,14 +211,14 @@ footer a {
 }
 #frame5{
     width: 100%;
-    height: 32vw;
+    height: 37vw;
     background-position: center;
     background-size: cover; padding-top: 1%; padding-bottom: 1%;
     border-top: 1px solid #9aacb8;
 }
 #frame6{
     width: 100%;
-    height: 35.5vw;
+    height: 14vw;
     background-position: center;
     background-size: cover; padding-top: 1%; padding-bottom: 1%;
     border-top: 1px solid #9aacb8;
@@ -326,9 +326,9 @@ div.gallery img {
   border: 1px solid #ccc;
 }
 .responsive2 {
-  margin-right: 3%;
+  margin-right: 1%;
   float: left;
-  width: 21.99999%;
+  width: 23.99999%;
 }
 div.desc {
   padding: 10px;
@@ -342,8 +342,16 @@ div.gallery img {
   height: auto;
 }
  @media all and (max-width: 768px) {
+#frame6{
+    height: 55vw;
+} 
+.responsive2 {
+  float: left;
+  width: 48.99999%;
+  margin-bottom: 1%    
+}     
 #frame5{
-    height: 33vw;
+    height: 41vw;
 }     
 font4{
     font-size: 3.5vw;
@@ -539,7 +547,7 @@ a.menu-link.active:after { content: "\2715"; }
     height: auto;
 }    
 #frame5{
-    height: 11.5em;
+    height: 14vw;
 } 
 font4{
     font-size: 4.2vw;
