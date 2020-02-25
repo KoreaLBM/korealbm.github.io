@@ -342,6 +342,15 @@ div.gallery img {
   height: auto;
 }
  @media all and (max-width: 768px) {
+#jb-introframe{
+	float: none;
+	width: auto;
+	height: 400px;
+}
+
+#contents{
+	padding-left: 5%;
+}    
 #frame5{
     height: 33vw;
 }     
