@@ -227,7 +227,15 @@ div.gallery img {
     height: 150px;
 }
  @media all and (max-width: 768px) {
+#jb-introframe{
+	float: none;
+	width: auto;
+	height: 400px;
+}
 
+#contents{
+	padding-left: 5%;
+}
 .example-header .container { width: 100%; }
 
 .spinner-master * {
