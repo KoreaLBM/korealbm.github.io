@@ -232,6 +232,15 @@ div.gallery img {
     height: 150px;
 }
  @media all and (max-width: 768px) {
+ #jb-introframe{
+	float: none;
+	width: auto;
+	height: 400px;
+}
+
+#contents{
+	padding-left: 5%;
+}    
 .responsive {
   width: 10%;
 }
