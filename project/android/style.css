@@ -352,6 +352,9 @@ font4{
   width: 19.99999%;
   height: 49%
 }
+.responsive1 {
+  width: 47.99999%;
+}
 .responsive_text{
   width: 27.99999%;
   min-height: 49%;
@@ -539,7 +542,7 @@ a.menu-link.active:after { content: "\2715"; }
     height: auto;
 }    
 #frame5{
-    height: 11.5em;
+    height: 9.5em;
 } 
 font4{
     font-size: 4.2vw;
