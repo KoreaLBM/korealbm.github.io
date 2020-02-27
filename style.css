@@ -188,7 +188,7 @@ footer a {
 }
 font1{
     color: black;
-    font-size: 1em;
+    font-size: 20px;
     font-weight: 400;
 }
 font2{
@@ -219,8 +219,16 @@ div.gallery img {
     display: inline-block;
 }
 #bin{
-    height: 50px;
+    margin-top: 7%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
     width: auto;
+}
+font3{
+    font-size: 15px;
 }
 #bin1{
     
