@@ -194,7 +194,10 @@ font1{
 font2{
     font-weight: 700;text-shadow: 2px 1px 1px #9aacb8;
 }
-
+font4{
+    font-size: 20px;
+    font-weight: 700;text-shadow: 2px 1px 1px #9aacb8;
+}
 div.gallery img {
   width: 100%;
   height: auto;
@@ -227,12 +230,31 @@ div.gallery img {
     padding-right: 8%;
     width: auto;
 }
+#frames{
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
 font3{
     font-size: 15px;
 }
 #bin1{
     
     height: 150px;
+}
+.responsive {
+  padding-right: 40px;
+  float:left;
+  width: 200px;
+}
+.responsive_text{      
+  padding: 5px; 
+  width: auto;    
+}
+p2{
+    font-weight: bold;
 }
  @media all and (max-width: 768px) {
 #jb-introframe{
@@ -412,7 +434,13 @@ a.menu-link.active:after { content: "\2715"; }
  }
 
 }
-
+@media all and (max-width: 580px){
+    .responsive {
+        width: 100%;
+        margin-bottom: 30px;
+    }  
+    
+}
 /* 프레임 틀 */
 
 /* 폰트 */
